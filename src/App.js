@@ -18,7 +18,7 @@ const App = () => {
   }, [dispatch]);
 
   const formatBG = () => {
-    if (Math.floor(now.temp) > 20) {
+    if (Math.round(now.temp) > 22) {
       return "from-yellow-700 to-orange-700";
     } else {
       return "from-cyan-700 to-blue-700";
